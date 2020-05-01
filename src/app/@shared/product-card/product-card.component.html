@@ -1,0 +1,12 @@
+<div *ngIf="product" class="card card-pricing m-0 corner-1">
+  <div class="card-body">
+    <img *ngIf="product.image" class="card-img-top w-100 pt-2" [src]="product.image[0].path" alt="Product image" />
+    <img *ngIf="!product.image" class="card-img-top w-100 pt-2" alt="Product image" />
+    <div class="card-body">
+      <div class="card-title font-weight-bold mt-0">{{ product.title }}</div>
+      <h6 class="card-category p-0">
+        {{ product.price }}
+      </h6>
+    </div>
+  </div>
+</div>

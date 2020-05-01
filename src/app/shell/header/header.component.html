@@ -1,0 +1,22 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-header py-0">
+    <img *ngIf="componentName == 'SHOP'" class="navbar-brand w-25 logo" src="https://cdn.ikointl.com/sites/all/themes/iko_theme/images/iko-logo-clean-white.svg" />
+    <i *ngIf="componentName !== 'SHOP'" class="now-ui-icons text-white arrows-1_minimal-left icon-lg" (click)="redirectPrevious()"></i>
+    <p class="h-auto navbar-toggler no-border text-white w-auto" [ngClass]="{ 'ml-n5': componentName == 'SHOP' }">
+      {{componentName }}
+    </p>
+    <button class="navbar-toggler no-border h-auto text-white" type="button" aria-controls="navbar-menu" aria-label="Toggle navigation" (click)="toggleMenu()" [attr.aria-expanded]="!menuHidden">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
+      <div class="navbar-nav ml-auto">
+        <app-language-selector inNavbar="true" menuClass="dropdown-menu dropdown-menu-right"></app-language-selector>
+        <a class="nav-item nav-link text-uppercase" routerLink="/login" routerLinkActive="active">
+          <i class="fas fa-question-circle"></i>
+          <span translate>Login</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>

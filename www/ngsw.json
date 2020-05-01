@@ -1,0 +1,126 @@
+{
+  "configVersion": 1,
+  "timestamp": 1588193072761,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5-es2015.8ed4e46cbf62c691c7fc.js",
+        "/5-es5.8ed4e46cbf62c691c7fc.js",
+        "/6-es2015.dac22aabd4dfd2ef524c.js",
+        "/6-es5.dac22aabd4dfd2ef524c.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.405d74e24c68e068c628.js",
+        "/main-es5.405d74e24c68e068c628.js",
+        "/manifest.json",
+        "/polyfills-es2015.15f21f185c34d39b7dcb.js",
+        "/polyfills-es5.d0bd0593edaf6b88be1a.js",
+        "/runtime-es2015.d36da33915e9cc587abd.js",
+        "/runtime-es5.d36da33915e9cc587abd.js",
+        "/scripts.6d3082e6c86c1456acdd.js",
+        "/styles.6ff410817f5dda968295.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/css/now-ui-dashboard.css",
+        "/assets/fonts/nucleo-license.md",
+        "/assets/fonts/nucleo-outline.eot",
+        "/assets/fonts/nucleo-outline.ttf",
+        "/assets/fonts/nucleo-outline.woff",
+        "/assets/fonts/nucleo-outline.woff2",
+        "/assets/js/now-ui-dashboard.js",
+        "/assets/mock/products.json",
+        "/assets/ngx-rocket-logo.png",
+        "/assets/ngx-rocket-logo@192.png",
+        "/fa-brands-400.31015e861aeb30ff8355.woff2",
+        "/fa-brands-400.5818bbd07dfd7095920a.ttf",
+        "/fa-brands-400.607a77859353c0cc1882.eot",
+        "/fa-brands-400.ee26f57bc9e3619b022b.woff",
+        "/fa-regular-400.0747be4cba2f8600544f.eot",
+        "/fa-regular-400.8b892b7904a39e37c53d.woff",
+        "/fa-regular-400.c3146b3524e97475c094.ttf",
+        "/fa-regular-400.c52405129ae48097815d.woff2",
+        "/fa-solid-900.32267f3b4db33a7c85ee.ttf",
+        "/fa-solid-900.7eefe04dc985dd4ad38b.eot",
+        "/fa-solid-900.9451d5fee89b51a20f8a.woff2",
+        "/fa-solid-900.a940d584750708f5435c.woff",
+        "/nucleo-outline.1102ed9b2d16dccdec05.ttf",
+        "/nucleo-outline.1a1036e643f97457ec5f.woff",
+        "/nucleo-outline.56814a6b7240045e1494.eot",
+        "/nucleo-outline.802141dd0dcc63b21cbb.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5-es2015.8ed4e46cbf62c691c7fc.js": "6e8a4a34748f2a401e6bdaa071c19ddd12513833",
+    "/5-es5.8ed4e46cbf62c691c7fc.js": "63c5f2ba997aacb5218978cf966b00313aa32f04",
+    "/6-es2015.dac22aabd4dfd2ef524c.js": "072a166d56520a35b2e763dd7b44bff924f8b2af",
+    "/6-es5.dac22aabd4dfd2ef524c.js": "b47b6042df4250e022f3e9a309113a977b8e7ca5",
+    "/assets/css/now-ui-dashboard.css": "0e2958703e0f99b087e1aa5e85f49f032ba142a4",
+    "/assets/fonts/nucleo-license.md": "f6f0c9baa73a9ac6a9824e839e0f4034de13e717",
+    "/assets/fonts/nucleo-outline.eot": "a1faab9e1cf198358d5dd9ed054ccdb089b0cdba",
+    "/assets/fonts/nucleo-outline.ttf": "4292e57a762b533eecee72c9b43d97e51571961d",
+    "/assets/fonts/nucleo-outline.woff": "ce7320d5772646cce6b34eb221be31603bd39abc",
+    "/assets/fonts/nucleo-outline.woff2": "5006bd629bae1bfd245240a313ebf1a2a92702ab",
+    "/assets/js/now-ui-dashboard.js": "a9b4c1413641b8286935208e62f8f9de96153aa5",
+    "/assets/mock/products.json": "29c031b6ad84403ecfc95e84a8451eb340a971d3",
+    "/assets/ngx-rocket-logo.png": "0ac53fd27406fe5a36e68285315fb0012e54058e",
+    "/assets/ngx-rocket-logo@192.png": "461b730f9c6dc818f8af9acbe62dfde24dc02d7a",
+    "/fa-brands-400.31015e861aeb30ff8355.woff2": "509988477da79c146cb93fb728405f18e923c2de",
+    "/fa-brands-400.5818bbd07dfd7095920a.ttf": "66c86edfd13e63e0e981ce853335c28bc2d20cec",
+    "/fa-brands-400.607a77859353c0cc1882.eot": "a17db2a5a355befd089bb6e7d53c3d501bf9e827",
+    "/fa-brands-400.ee26f57bc9e3619b022b.woff": "8436788e76679c0485b62c80eb7512c6c2e34e88",
+    "/fa-regular-400.0747be4cba2f8600544f.eot": "6299f0e32575f73d8d897f87ce899827f99e20fe",
+    "/fa-regular-400.8b892b7904a39e37c53d.woff": "8469cb3d9c8189fea64f60aef2753509d770b8df",
+    "/fa-regular-400.c3146b3524e97475c094.ttf": "00f569f7d8ac2497a43b25dc4d3b32213bcea31b",
+    "/fa-regular-400.c52405129ae48097815d.woff2": "260bb01acd44d88dcb7f501a238ab968f86bef9e",
+    "/fa-solid-900.32267f3b4db33a7c85ee.ttf": "ff8f37dfad105796bd924d0db0d37a4ff252618c",
+    "/fa-solid-900.7eefe04dc985dd4ad38b.eot": "5be5944a17e8b32589a12fdc2b8a8570c9081db4",
+    "/fa-solid-900.9451d5fee89b51a20f8a.woff2": "75a88815c47a249eadb5f0edc1675957f860cca7",
+    "/fa-solid-900.a940d584750708f5435c.woff": "15c52209092ce0fb7210e40e2a01acc8b4a5c494",
+    "/favicon.ico": "b65083d46bbf63692d5d2cdd69622e6d7ecae317",
+    "/index.html": "8a6dd467316da098cdd515e49b8c766df3ed04e7",
+    "/main-es2015.405d74e24c68e068c628.js": "b2305284b2274192ae18b8a86678da208f69a637",
+    "/main-es5.405d74e24c68e068c628.js": "f13b18a40ca1254205467f9e819115a06f4ac258",
+    "/manifest.json": "b8732d5c47d60b14ce34e2e2a0b7b33c7aa4ed7f",
+    "/nucleo-outline.1102ed9b2d16dccdec05.ttf": "4292e57a762b533eecee72c9b43d97e51571961d",
+    "/nucleo-outline.1a1036e643f97457ec5f.woff": "ce7320d5772646cce6b34eb221be31603bd39abc",
+    "/nucleo-outline.56814a6b7240045e1494.eot": "a1faab9e1cf198358d5dd9ed054ccdb089b0cdba",
+    "/nucleo-outline.802141dd0dcc63b21cbb.woff2": "5006bd629bae1bfd245240a313ebf1a2a92702ab",
+    "/polyfills-es2015.15f21f185c34d39b7dcb.js": "ec7fbbb21d60ed745a935ee42a55cb3e10ba1aa9",
+    "/polyfills-es5.d0bd0593edaf6b88be1a.js": "abc6b57f586ad14bb0ffd4d9122ef3d14c5100cc",
+    "/runtime-es2015.d36da33915e9cc587abd.js": "fe99532c72515ea5a7e7d5df66a96cbc01c837f0",
+    "/runtime-es5.d36da33915e9cc587abd.js": "ce4f24485a1b551e659f0b688fa1eeec6b13f206",
+    "/scripts.6d3082e6c86c1456acdd.js": "c19105999bbaa8e0c9145a1ca6d402e0fbf47a7e",
+    "/styles.6ff410817f5dda968295.css": "b39bfd1a1ce40c1a6ad03903d6dd886151ce26f0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

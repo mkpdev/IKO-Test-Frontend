@@ -1,0 +1,98 @@
+<div class="container-fluid" *ngIf="details">
+  <div class="row justify-content-center">
+    <div class="col-md-6 col-lg-4 col-sm-12">
+      <div class="card">
+        <swiper [config]="config" class="corner-1">
+          <div *ngFor="let image of details.image">
+            <img [src]="image.path" class="w-100 p-4" />
+          </div>
+        </swiper>
+
+        <div class="swiper-container dots col-4" [swiper]="galleryThumbs">
+          <div class="swiper-wrapper justify-content-center ml-n2">
+            <i class="swiper-slide fas fa-circle px-0" *ngFor="let image of details.image"></i>
+          </div>
+        </div>
+      </div>
+      <div class="big">
+        <label translate>{{ details.title }}</label> <br>
+        <label class="text-muted" translate>{{ details.price }}</label>
+      </div>
+
+      <div id="accordion" role="tablist" aria-multiselectable="true" class="card-collapse">
+        <div class="card card-plain">
+          <div class="card-header" role="tab" id="headingOne">
+            <a class="text-decoration-none custom-text-info" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" translate>
+              Description
+              <i class="now-ui-icons arrows-1_minimal-down"></i>
+            </a>
+          </div>
+
+          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div class="card-body" [innerHTML]="details.description"></div>
+          </div>
+        </div>
+
+        <div class="card card-plain">
+          <div class="card-header" role="tab" id="headingTwo">
+            <a class="text-decoration-none custom-text-info" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Details
+              <i class="now-ui-icons arrows-1_minimal-down"></i>
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-3 d-flex flex-column justify-content-center">
+                  <div>Size</div>
+                </div>
+                <div class="col-4">
+                  <select id="inputState" class="form-control">
+                    <option selected>Select</option>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-3 d-flex flex-column justify-content-center">
+                  <div>Color</div>
+                </div>
+                <div class="col-4">
+                  <select id="inputColor" class="form-control">
+                    <option selected>Select</option>
+                    <option value="white">White</option>
+                    <option value="black">Black</option>
+                    <option value="yellow">Yellow</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card-plain">
+          <div class="card-header" role="tab" id="headingThree">
+            <a class="custom-text-info" data-parent="#accordion" aria-expanded="true" aria-controls="collapseThree">
+              Related Products
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree">
+            <div class="card-body">
+              <div class="swiper-container" [swiper]="relatedConfig">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide card corner-1 card-pricing" *ngFor="let product of relatedProducts" id="products">
+                    <app-product-card [product]="product"></app-product-card>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="border-bottom">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

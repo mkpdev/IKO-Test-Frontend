@@ -1,0 +1,27 @@
+@import "src/theme/theme-variables";
+.navbar {
+  margin-bottom: $spacer;
+}
+
+.nav-link.dropdown-toggle {
+  cursor: pointer;
+}
+
+.bg-header {
+  background-color: #0263bf;
+}
+
+.no-border {
+  border-color: transparent;
+}
+
+@media only screen and (min-width: 1000px) {
+  .logo {
+    width: 8% !important;
+  }
+}
+
+.icon-lg {
+  font-size: larger;
+  font-weight: bold;
+}

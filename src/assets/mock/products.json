@@ -1,0 +1,69 @@
+[
+  {
+    "id": 101,
+    "title": "50 Kiterboarder Certification Credits",
+    "price": "$90.00",
+    "image": [
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits.png?itok=4ntSIJg5"
+      },
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits_0.png?itok=Rss7-yBQ"
+      },
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits_1.png?itok=0Z99z8hL"
+      }
+    ],
+    "description": "<p>Battery providing talk-time of 14 hours and standby time of 200 hours on 2G network and talk-time of 8 hours on 3G network</p><p>It's a 3G phone. Works with all 4G GSM SIM cards in 3G mode only. Jio SIM not supported.</p><p>Compact in Size. Fits in pocket.</p><p>Available in Black / White Color - For color preference, mail us once you place the order.</p>",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Black", "White"]
+  },
+  {
+    "id": 102,
+    "title": "25 Kiterboarder Certification Credits",
+    "price": "$60.00",
+    "image": [
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits.png?itok=4ntSIJg5"
+      },
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/kiteboarder-certification-credits_1.png?itok=0Z99z8hL"
+      }
+    ],
+    "description": "<p>8MP primary camera with autofocus, tap to focus, LED flash, face detection, hybrid IR filter, panorama, video stabilisation, geotagging, video recording and VGA front facing camera</p><p>3.5-inch multi-touchscreen with 960 x 340 pixels resolution</p><p>iOS operating system and in-built memory up to 16GB</p>",
+    "size": ["Medium", "Large"],
+    "color": ["Black", "White", "Red"]
+  },
+  {
+    "id": 103,
+    "title": "25 Kiterboarder Certification Credits",
+    "price": "$60.00",
+    "image": [
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/iko-hats.jpeg?itok=qvBSrGjA"
+      },
+      {
+        "path": "https://i.pinimg.com/236x/35/45/a2/3545a2ae51df8e586addce933ba1b61d.jpg"
+      }
+    ],
+    "description": "<p>When it comes to great outfits, a little artistic flare can go a long way. And an embroidered dad cap with a washed out vintage feel is just what's needed to add a little excitement to an otherwise basic outfit.</p> <p>Note that the hats are distressed, so there might be some color differences between hats of the same color.</p> <p>This product is made on demand. No minimums.</p>",
+    "size": ["Small", "Medium", "Large"],
+    "color": ["Black", "White"]
+  },
+  {
+    "id": 104,
+    "title": "50 Kiterboarder Certification Credits",
+    "price": "$20.00",
+    "image": [
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/TEE-IKO-GREEN_3.png?itok=KtkPQ59U"
+      },
+      {
+        "path": "https://cdn.ikointl.com/sites/default/files/styles/shop_list_image/public/TEE-IKO-BLUE_3.png?itok=J2r-OzwG"
+      }
+    ],
+    "description": "<p>This lightweight tank top features wide shoulder bands. It is light, cool and a 'must-have' in every woman's wardrobe.</p><p>This Top is the perfect addition to your collection. Brilliant Top with adjustable nylon strap for sizing. $69.75 Pay by Bank, Card or Bitcoin</p>",
+    "size": ["Small", "X-Small", "Medium", "Large", "X-Large"],
+    "color": ["Black", "White", "Red"]
+  }
+]
